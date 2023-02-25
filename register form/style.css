@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h2{
     text-align: center;
     color: rgb(156, 187, 1);
@@ -47,3 +48,54 @@ body{
 .demo2{
     color: green;
 }
+=======
+h2{
+    text-align: center;
+    color: rgb(156, 187, 1);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.register{
+    display: block;
+    float: center;
+    width: 300px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+    background-image: url('img/purple-background-registration.png');
+}
+.button{
+    background-color: rgb(0, 0, 88);
+    color: white;
+    padding: 5px 8px;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 60%;
+    float: right;
+}
+button:hover{
+    opacity: 100%;
+}
+input{
+    margin-bottom: 10px;
+    padding-right: 110px;
+    background-color: bisque;
+    padding-top: 3px;
+}
+.form{
+    margin-left: 10px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('img/purple-background-registration.png');
+}
+.demo{
+    color: red;
+}
+.demo2{
+    color: green;
+}
+>>>>>>> b85cae7d2c7027551fbbfb2862e526222cabc9d0

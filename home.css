@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -39,3 +40,47 @@ a:hover{
     padding-left: 3px;
     padding-right: 3px;
 }
+=======
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+header{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 80%;
+}
+h3{
+    text-align: center;
+    font-size: large;
+}
+nav{
+    text-align: center;
+    margin-top: 20px;
+    margin-botton: 80px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: yellow;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dashed;
+}
+a:hover{
+    background-color: aliceblue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+>>>>>>> b85cae7d2c7027551fbbfb2862e526222cabc9d0
