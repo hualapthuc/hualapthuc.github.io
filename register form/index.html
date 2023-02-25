@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Form</title>
+</head>
+<body>
+    <div class="register">
+        <h2>Register Form</h2>  
+        <form class="form">
+            <b>Username:</b>
+            <input type="text" placeholder="Enter username" id="Username">
+            <h5 id="testUsername" class="demo"></h5>     
+            <b>Password:</b>
+            <input type="password" placeholder="Enter password" id="Password">
+            <h5 id="testPassword" class="demo"></h5>
+            <b>Confirm your password:</b>
+            <input type="password" placeholder="Repeat password" id="Confirm">
+            <h5 id="testConfirm" class="demo"></h5>
+            <h5 class="demo2" id="success"></h5>
+            <button class="button" onclick="formValid()">Register</button>
+        </form>
+    </div>
+    <script src="JS/myScript.js"></script>
+</body>
+</html>

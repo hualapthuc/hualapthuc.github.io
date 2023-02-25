@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+header{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    font-size: large;
+}
+nav{
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: yellow;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dashed;
+}
+a:hover{
+    background-color: aliceblue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}

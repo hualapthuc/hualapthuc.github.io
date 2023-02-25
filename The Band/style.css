@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: black;
+    color: white;
+    line-height: 46px;
+}
+ul{
+    display: flex ;
+    list-style: none;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul li{
+    padding: 0 20px;
+    cursor: pointer;
+}
+ul li:hover{
+    width: auto;
+    line-height: 46px ;
+    background-color: bisque;
+    color: black;
+}
+img{
+    width: 100%;
+}
+option{
+    background-color: black;
+    color: white;
+    padding: auto;
+    font-size: 15px ;
+    text-align: center;
+}
